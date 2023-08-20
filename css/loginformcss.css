@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2? family-Poppins: wght@300; 400; 500; 600; 700; 800;900& display=swap");
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=REM&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins",'REM',sans-serif,'Montserrat';
+  
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:#FFFBE8; 
+    background-size: cover;
+    background-position: center;
+
+}
+
+.logoimg{
+    padding-bottom: 30px;
+}
+
+.container{
+    display: flex;
+    color:black;
+    flex-direction: row;
+    height: 550px;
+    width: 500px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#FFFBE8; 
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.container .leftcontainer{
+    width: 50%;
+    height: 200px;
+    
+}
+
+.leftcontainer h1{
+    color: black;
+    text-align: center;
+    margin: 15px 20px;
+    padding: 10px;
+    font-size: 80px;
+    font-style: REM;
+}
+
+.leftcontainer p{
+    color: black;
+    text-align: center;
+    margin: 15px 20px;
+    padding: 10px;
+    font-size: 16px;
+    font-style: REM;
+}
+
+.wrapper{
+    width:420px;
+    background:transparent;
+    color:#141414;
+    border-radius: 10px;
+    padding:30px 40px;  
+}
+
+.wrapper h1{
+    font-size:36px;
+    text-align: center;
+
+}
+
+.wrapper .input-box{
+    position: relative;
+    width:100%;
+    height: 50px;
+    /* background: salmon; */
+    margin:30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border:none; 
+    outline: none;
+    border:2px solid black;
+    border-radius: 40px;
+    font-size: 16px;
+    color:#252424;
+    padding:20px 45px 20px 20px; 
+
+} 
+
+.input-box input::placeholder{
+    color:#151414;
+    /* padding:0 15px; */
+}
+
+.input-box i{
+    position: absolute;
+    right:20px;
+    top:50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+
+}
+
+.wrapper .remember-forgot{
+    display:flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin:-15px 0 15px;
+
+}
+
+.remember-forgot label input{
+    accent-color: #000000;    /*checkbox inner color property */
+    
+    margin-right: 3px;
+
+}
+
+.remember-forgot a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+ .wrapper .btn{
+   width: 100%; 
+   height: 45px;
+   background: #fff;
+   border:none;
+   outline:none;
+   border-radius: 40px;
+   box-shadow: 0 0 10px rgba(0,0,0,.1);
+   cursor: pointer;
+   font-size: 16px;
+    color:#151515;
+    font-weight: 600;
+}
+
+.wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin:20px 0 15px;
+    
+}
+
+.register-link p a{
+    color:#1b1919;
+    text-decoration: none;
+    font-weight: 600;  
+}
+
+.register-link p a:hover{
+    text-decoration: underline;
+}
+

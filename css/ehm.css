@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=EB+Garamond&family=Lato:wght@700&family=Montserrat:wght@500&family=Oswald:wght@300&family=PT+Serif:wght@700&family=Poppins:wght@300&family=REM&display=swap');
+
+*{
+    font-family: 'Borel', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'REM', sans-serif;
+
+}
+button{
+    margin-left: 20px;
+    background-color: rgb(203, 198, 129);
+    border:none;
+    cursor: pointer;
+   
+    padding:10px 25px;
+    transition: all 0.3s ease 0s;
+
+}
+h3{
+    font-family: 'Borel', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'REM', sans-serif; 
+}
+
+
+#ctn{
+    border-radius: 40px;
+}
+
+button:hover{
+    background-color: rgba(205, 204, 147, 0.8);
+
+}
+
+.header-right{
+    font-family: "Montesrrat",sans-serif;
+}
+
+#fb:hover{
+    background-color: rgb(70, 116, 214);
+}
+
+#insta:hover{
+    background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+#linkedin:hover{
+    background-color: rgb(70, 116, 214);
+}
+
+#foot{
+    background-color: #2f3c4d;
+}
+.card{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; 
+  
+}
+
+.card:hover{
+    opacity: 0.5;
+
+}
