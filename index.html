@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventist</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link 
+    href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+    rel="stylesheet"  type='text/css'>   
+</head>
+
+<body>
+
+    <div id="wapper">
+        <div class="container">
+            
+                            
+             
+
+            <!--  header section start -->
+            <header>
+                <div class="navbar">
+                    <div class="logo"><img src="img/logo.jpg" alt=""></div>
+
+                    <ul class="nav-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="register.html">Register</a></li>
+                        <li><a href="loginform.html">Login</a></li>
+                        <li> <a href="contact.html" class="action_btn">Contact Us</a></li>
+
+                    </ul>
+
+                    <div class="toggle_btn">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+                <div class="dropdown_menu ">
+
+                    <li><a href="innerpage.html">Home</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Registration</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li> <a href="#" class="action_btn">Get Started</a></li>
+                </div>
+            </header>
+            <script>
+                const toggleBtn = document.querySelector('.toggle_btn')
+                const toggleBtnIcon = document.querySelector('.toggle_btn i')
+                const dropDownMenu = document.querySelector('.dropdown_menu')
+                toggleBtn.onclick = function () {
+                    dropDownMenu.classList.toggle('open')
+                }
+            </script>
+            <!--  header section end -->
+
+            <!-- Upcoming event section -->
+            <section id="upcoimg-event-section">
+                <div id="up-heading">
+                    <h1 >Live/Upcoming Event</h1>
+                </div>
+
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                           <div class="event-img">
+                            <a href="innerpage.html"><img  src="img/german laguage medicaps.jpg" alt=""></a>
+                            
+                           </div>
+                           <h3>German Language Foundation course</h3>
+                           <h4><b>Date: 22-12-2023</b></h4>
+                          </div>
+                          
+
+                          <div class="swiper-slide">
+                            <div class="event-img">
+                                <a href="innerpage.html"> <img src="img/inovationidea.jpg" alt=""></a>
+                            
+                            </div>
+                            <h3>Invocation</h3>
+                            <h4><b>Date: 22-12-2023</b></h4>
+                           </div>
+
+                           <div class="swiper-slide">
+                            <div class="event-img">
+                             <img src="img/MSME.jpg" alt="">
+                            </div>
+                            <h3>German Language Foundation course</h3>
+                            <h4><b>Date: 22-12-2023</b></h4>
+                           </div>
+
+                           <div class="swiper-slide">
+                            <div class="event-img">
+                             <img src="img/liveeventmedicaps.jpg" alt="">
+                            </div>
+                            <h3>Higher Education</h3>
+                            <h4><b>Date: 22-12-2023</b></h4>
+                           </div>
+
+                           <div class="swiper-slide">
+                            <div class="event-img">
+                             <img src="img/kalakunj.jpg" alt="" height="400px">
+                            </div>
+                            <h3>German Language Foundation course</h3>
+                            <h4><b>Date: 22-12-2023</b></h4>
+                           </div>
+
+                           <div class="swiper-slide">
+                            <div class="event-img">
+                             <img src="img/german laguage medicaps.jpg" alt="">
+                            </div>
+                            <h3>German Language Foundation course</h3>
+                            <h4><b>Date: 22-12-2023</b></h4>
+                           </div>
+
+                           <div class="swiper-slide">
+                            <div class="event-img">
+                             <img src="img/german laguage medicaps.jpg" alt="">
+                            </div>
+                            <h3>German Language Foundation course</h3>
+                            <h4><b>Date: 22-12-2023</b></h4>
+                           </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                      </div>
+                   
+
+
+                    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+                    <script>
+                        var swiper = new Swiper(".mySwiper", {
+                          effect: "coverflow",
+                          grabCursor: true,
+                          centeredSlides: true,
+                          slidesPerView: "auto",
+                          coverflowEffect: {
+                            rotate: 50,
+                            stretch: 0,
+                            depth: 100,
+                            modifier: 1,
+                            slideShadows: true,
+                          },
+                          pagination: {
+                            el: ".swiper-pagination",
+                          },
+                        });
+                      </script>
+               
+
+            </section>
+
+
+
+            <section  id="Past-events"  >
+                <div class="up-heading2">
+                    <h1>Past Events</h1>
+                </div>
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                       <div class="event-img">
+                        <a href="pasteventinner.html"><img  src="img/german laguage medicaps.jpg" alt=""></a>
+                        
+                       </div>
+                       <h3>German Language Foundation course</h3>
+                       <h4><b>Date: 22-12-2023</b></h4>
+                      </div>
+                      
+
+                      <div class="swiper-slide">
+                        <div class="event-img">
+                            <a href="pasteventinner.html"> <img src="img/inovationidea.jpg" alt=""></a>
+                        
+                        </div>
+                        <h3>Invocation</h3>
+                        <h4><b>Date: 22-12-2023</b></h4>
+                       </div>
+
+                       <div class="swiper-slide">
+                        <div class="event-img">
+                         <a href="pasteventinner.html"><img src="img/MSME.jpg" alt=""></a>
+                        </div>
+                        <h3>German Language Foundation course</h3>
+                        <h4><b>Date: 22-12-2023</b></h4>
+                       </div>
+
+                       <div class="swiper-slide">
+                        <div class="event-img">
+                          <a href="pasteventinner.html"><img src="img/liveeventmedicaps.jpg" alt=""></a>
+                        </div>
+                        <h3>Higher Education</h3>
+                        <h4><b>Date: 22-12-2023</b></h4>
+                       </div>
+
+                       <div class="swiper-slide">
+                        <div class="event-img">
+                         <a href="pasteventinner.html"><img src="img/kalakunj.jpg" alt="" height="400px"></a>
+                        </div>
+                        <h3>German Language Foundation course</h3>
+                        <h4><b>Date: 22-12-2023</b></h4>
+                       </div>
+
+                       <div class="swiper-slide">
+                        <div class="event-img">
+                         <a href="pasteventinner.html"><img src="img/german laguage medicaps.jpg" alt=""></a>
+                        </div>
+                        <h3>German Language Foundation course</h3>
+                        <h4><b>Date: 22-12-2023</b></h4>
+                       </div>
+
+                       <div class="swiper-slide">
+                        <div class="event-img">
+                         <a href="pasteventinner.html"><img src="img/german laguage medicaps.jpg" alt=""></a>
+                        </div>
+                        <h3>German Language Foundation course</h3>
+                        <h4><b>Date: 22-12-2023</b></h4>
+                       </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+               
+
+
+                <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+                <script>
+                    var swiper = new Swiper(".mySwiper", {
+                      effect: "coverflow",
+                      grabCursor: true,
+                      centeredSlides: true,
+                      slidesPerView: "auto",
+                      coverflowEffect: {
+                        rotate: 50,
+                        stretch: 0,
+                        depth: 100,
+                        modifier: 1,
+                        slideShadows: true,
+                      },
+                      pagination: {
+                        el: ".swiper-pagination",
+                      },
+                    });
+                  </script>
+            </section>
+
+
+            <footer class="footer-distributed">
+
+              <div class="footer-left">
+        
+                <a href="index.html"><img src="./img/logo.jpg" alt="companylogo"  class="footer-logo"></a>
+        
+                <p class="footer-links">
+                  <a href="#" class="link-1">Home</a>  
+                  <a href="#">About</a>
+                  <a href="#">Contact</a>
+                </p>
+        
+                <p class="footer-company-name">Company Name © 2023</p>
+              </div>
+        
+              <div class="footer-center">
+        
+                <div>
+                  <i class="fa fa-map-marker"></i>
+                  <p><span>Medicaps university </span>rau,indore</p>
+                </div>
+        
+                <div>
+                  <i class="fa fa-phone"></i>
+                  <p>+91 9301923xxx</p>
+                </div>
+        
+                <div>
+                  <i class="fa fa-envelope"></i>
+                  <p><a href="mailto:support@company.com">support@company.com</a></p>
+                </div>
+        
+              </div>
+        
+              <div class="footer-right">
+        
+                <p class="footer-company-about">
+                  <span>About the company</span>
+                  Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+                </p>
+                <div class="social-links">
+                  <span class="secnd-text">Connect with us:</span>
+                  <ul class="social-media">
+                      <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i class='fa fa-twitter'></i></a></li>
+                      <li><a href="#"><i class='fa fa-youtube'></i></a></li>
+                      <li><a href="#"><i class='fa fa-linkedin'></i></a></li>
+                  </ul>
+              </div>
+        
+              </div>
+
+            </footer>
+        </div>
+    </div>
+
+    <script src="script.js"> </script>
+
+</body>
+
+</html>
